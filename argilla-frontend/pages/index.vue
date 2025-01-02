@@ -29,6 +29,7 @@
     </template>
     <template v-slot:page-content>
       <BaseLoading v-if="isLoadingDatasets" />
+      <button @click="listen">Listen</button>
       <DatasetList
         :workspaces="workspaces"
         :datasets="datasets.datasets"
