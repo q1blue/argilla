@@ -54,7 +54,7 @@ jobs:
             echo "DOCKER_PASSWORD=$DOCKER_PASSWORD" >> $GITHUB_ENV
             echo "PUBLISH_LATEST=$PUBLISH_LATEST" >> $GITHUB_ENV
           else
-            echo "PLATFORMS=linux/amd64" >> $GITHUB_ENV
+            echo "PLATFORMS=linux/amd64,linux/arm64" >> $GITHUB_ENV
             echo "IMAGE_TAG=$DOCKER_IMAGE_TAG" >> $GITHUB_ENV
             echo "SERVER_DOCKER_IMAGE=argilladev/argilla-server" >> $GITHUB_ENV
             echo "HF_SPACES_DOCKER_IMAGE=argilladev/argilla-hf-spaces" >> $GITHUB_ENV
