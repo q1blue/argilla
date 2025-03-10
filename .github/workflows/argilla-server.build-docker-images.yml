@@ -16,7 +16,7 @@ on:
 jobs:
   build:
     name: Build Argilla server docker images
-    runs-on: ubuntu-24.04-arm
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v4
@@ -73,7 +73,7 @@ jobs:
           DOCKER_PASSWORD_DEV: ${{ secrets.AR_DOCKER_PASSWORD_DEV }}
 
       - name: Set up QEMU
-        if: ${{ inputs.is_release }}
+        # if: ${{ inputs.is_release }}
         uses: docker/setup-qemu-action@v3
 
       - name: Set up Docker Buildx
