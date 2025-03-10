@@ -26,11 +26,11 @@ providers:
   - name: github
     client_id: "<client_id>"
     client_secret: "<client_secret>"
-    
+
   - name: keycloack
     client_id: "<client_id>"
     client_secret: "<client_secret>"
-    
+
 
 allowed_workspaces:
   - name: argilla
@@ -157,7 +157,7 @@ providers:
 
 To get your client ID and client secret, you need to create a new client in the Keycloak settings page.
 
-Since Keycloak backend uses the Open ID Connect protocol, you probably need to setup the OIDC endpoint in the environment 
+Since Keycloak backend uses the Open ID Connect protocol, you probably need to setup the OIDC endpoint in the environment
 variables:
 
 ```bash
