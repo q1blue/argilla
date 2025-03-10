@@ -162,7 +162,7 @@ variables:
 
 ```bash
 export SOCIAL_AUTH_KEYCLOAK_OIDC_ENDPOINT=<keycloak-server>/realms/<configured-realm>
-
+```
 
 
 ### Adding more OAuth2 providers
