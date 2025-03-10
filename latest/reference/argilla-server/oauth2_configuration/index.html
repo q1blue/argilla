@@ -12,28 +12,28 @@
         <meta name="author" content="Argilla, Inc.">
       
       
-        <link rel="canonical" href="https://docs.argilla.io/latest/community/popular_issues/">
+        <link rel="canonical" href="https://docs.argilla.io/latest/reference/argilla-server/oauth2_configuration/">
       
       
-        <link rel="prev" href="../adding_language/">
+        <link rel="prev" href="../configuration/">
       
       
-        <link rel="next" href="../changelog/">
+        <link rel="next" href="../telemetry/">
       
       
-      <link rel="icon" href="../../assets/favicon.ico">
+      <link rel="icon" href="../../../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.33">
     
     
       
-        <title>Issue dashboard - Argilla Docs</title>
+        <title>OAuth2 configuration - Argilla Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,17 +52,17 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-      <link rel="stylesheet" href="../../css/ansi-colours.css">
+      <link rel="stylesheet" href="../../../css/ansi-colours.css">
     
-      <link rel="stylesheet" href="../../css/jupyter-cells.css">
+      <link rel="stylesheet" href="../../../css/jupyter-cells.css">
     
-      <link rel="stylesheet" href="../../css/pandas-dataframe.css">
+      <link rel="stylesheet" href="../../../css/pandas-dataframe.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -123,11 +123,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Issue dashboard - Argilla Docs" >
+        <meta  property="og:title"  content="OAuth2 configuration - Argilla Docs" >
       
         <meta  property="og:description"  content="Data-centric tool for AI builders" >
       
-        <meta  property="og:image"  content="https://docs.argilla.io/latest/assets/images/social/community/popular_issues.png" >
+        <meta  property="og:image"  content="https://docs.argilla.io/latest/assets/images/social/reference/argilla-server/oauth2_configuration.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -135,15 +135,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://docs.argilla.io/latest/community/popular_issues/" >
+        <meta  property="og:url"  content="https://docs.argilla.io/latest/reference/argilla-server/oauth2_configuration/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Issue dashboard - Argilla Docs" >
+        <meta  name="twitter:title"  content="OAuth2 configuration - Argilla Docs" >
       
         <meta  name="twitter:description"  content="Data-centric tool for AI builders" >
       
-        <meta  name="twitter:image"  content="https://docs.argilla.io/latest/assets/images/social/community/popular_issues.png" >
+        <meta  name="twitter:image"  content="https://docs.argilla.io/latest/assets/images/social/reference/argilla-server/oauth2_configuration.png" >
       
     
     
@@ -165,6 +165,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#oauth2-configuration" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -179,9 +184,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Argilla Docs" class="md-header__button md-logo" aria-label="Argilla Docs" data-md-component="logo">
+    <a href="../../.." title="Argilla Docs" class="md-header__button md-logo" aria-label="Argilla Docs" data-md-component="logo">
       
-  <img src="../../assets/logo.svg" alt="logo">
+  <img src="../../../assets/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -198,7 +203,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Issue dashboard
+              OAuth2 configuration
             
           </span>
         </div>
@@ -322,7 +327,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
     
@@ -341,7 +346,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../getting_started/quickstart/" class="md-tabs__link">
+        <a href="../../../getting_started/quickstart/" class="md-tabs__link">
           
   
   Getting started
@@ -357,7 +362,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../how_to_guides/" class="md-tabs__link">
+      <a href="../../../how_to_guides/" class="md-tabs__link">
         
   
     
@@ -374,7 +379,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../tutorials/" class="md-tabs__link">
+      <a href="../../../tutorials/" class="md-tabs__link">
         
   
     
@@ -389,17 +394,21 @@
         
   
   
+    
+  
   
     
     
       
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../reference/argilla/client/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../argilla/client/" class="md-tabs__link">
           
   
   API Reference
@@ -416,11 +425,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="../" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../../community/" class="md-tabs__link">
         
   
     
@@ -472,9 +479,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Argilla Docs" class="md-nav__button md-logo" aria-label="Argilla Docs" data-md-component="logo">
+    <a href="../../.." title="Argilla Docs" class="md-nav__button md-logo" aria-label="Argilla Docs" data-md-component="logo">
       
-  <img src="../../assets/logo.svg" alt="logo">
+  <img src="../../../assets/logo.svg" alt="logo">
 
     </a>
     Argilla Docs
@@ -501,7 +508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -561,7 +568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting_started/quickstart/" class="md-nav__link">
+      <a href="../../../getting_started/quickstart/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -582,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting_started/how-to-deploy-argilla-with-docker/" class="md-nav__link">
+      <a href="../../../getting_started/how-to-deploy-argilla-with-docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -603,7 +610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting_started/how-to-configure-argilla-on-huggingface/" class="md-nav__link">
+      <a href="../../../getting_started/how-to-configure-argilla-on-huggingface/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -624,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting_started/faq/" class="md-nav__link">
+      <a href="../../../getting_started/faq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -669,7 +676,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../how_to_guides/" class="md-nav__link ">
+            <a href="../../../how_to_guides/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -740,7 +747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/user/" class="md-nav__link">
+      <a href="../../../how_to_guides/user/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -761,7 +768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/workspace/" class="md-nav__link">
+      <a href="../../../how_to_guides/workspace/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -782,7 +789,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/dataset/" class="md-nav__link">
+      <a href="../../../how_to_guides/dataset/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -803,7 +810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/record/" class="md-nav__link">
+      <a href="../../../how_to_guides/record/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -824,7 +831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/distribution/" class="md-nav__link">
+      <a href="../../../how_to_guides/distribution/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -845,7 +852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/annotate/" class="md-nav__link">
+      <a href="../../../how_to_guides/annotate/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -866,7 +873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/query/" class="md-nav__link">
+      <a href="../../../how_to_guides/query/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -887,7 +894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/import_export/" class="md-nav__link">
+      <a href="../../../how_to_guides/import_export/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -956,7 +963,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/custom_fields/" class="md-nav__link">
+      <a href="../../../how_to_guides/custom_fields/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -994,7 +1001,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../how_to_guides/webhooks/" class="md-nav__link ">
+            <a href="../../../how_to_guides/webhooks/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1025,7 +1032,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/webhooks_internals/" class="md-nav__link">
+      <a href="../../../how_to_guides/webhooks_internals/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1054,7 +1061,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/use_markdown_to_format_rich_content/" class="md-nav__link">
+      <a href="../../../how_to_guides/use_markdown_to_format_rich_content/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1075,7 +1082,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how_to_guides/migrate_from_legacy_datasets/" class="md-nav__link">
+      <a href="../../../how_to_guides/migrate_from_legacy_datasets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1128,7 +1135,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../tutorials/" class="md-nav__link ">
+            <a href="../../../tutorials/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1159,7 +1166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tutorials/text_classification/" class="md-nav__link">
+      <a href="../../../tutorials/text_classification/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1180,7 +1187,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tutorials/token_classification/" class="md-nav__link">
+      <a href="../../../tutorials/token_classification/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1201,7 +1208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tutorials/image_classification/" class="md-nav__link">
+      <a href="../../../tutorials/image_classification/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1222,7 +1229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tutorials/image_preference/" class="md-nav__link">
+      <a href="../../../tutorials/image_preference/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1247,25 +1254,30 @@
       
   
   
+    
   
   
+  
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1276,7 +1288,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             API Reference
@@ -1295,17 +1307,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
         
           
-          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1330,7 +1345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/client/" class="md-nav__link">
+      <a href="../../argilla/client/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1351,7 +1366,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/workspaces/" class="md-nav__link">
+      <a href="../../argilla/workspaces/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1372,7 +1387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/users/" class="md-nav__link">
+      <a href="../../argilla/users/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1410,7 +1425,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/argilla/datasets/datasets/" class="md-nav__link ">
+            <a href="../../argilla/datasets/datasets/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1441,7 +1456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/datasets/dataset_records/" class="md-nav__link">
+      <a href="../../argilla/datasets/dataset_records/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1487,7 +1502,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/argilla/settings/settings/" class="md-nav__link ">
+            <a href="../../argilla/settings/settings/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1518,7 +1533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/settings/fields/" class="md-nav__link">
+      <a href="../../argilla/settings/fields/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1539,7 +1554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/settings/questions/" class="md-nav__link">
+      <a href="../../argilla/settings/questions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1560,7 +1575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/settings/metadata_property/" class="md-nav__link">
+      <a href="../../argilla/settings/metadata_property/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1581,7 +1596,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/settings/vectors/" class="md-nav__link">
+      <a href="../../argilla/settings/vectors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1602,7 +1617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/settings/task_distribution/" class="md-nav__link">
+      <a href="../../argilla/settings/task_distribution/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1648,7 +1663,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/argilla/records/records/" class="md-nav__link ">
+            <a href="../../argilla/records/records/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1679,7 +1694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/records/responses/" class="md-nav__link">
+      <a href="../../argilla/records/responses/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1700,7 +1715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/records/suggestions/" class="md-nav__link">
+      <a href="../../argilla/records/suggestions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1721,7 +1736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/records/vectors/" class="md-nav__link">
+      <a href="../../argilla/records/vectors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1742,7 +1757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/records/metadata/" class="md-nav__link">
+      <a href="../../argilla/records/metadata/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1771,7 +1786,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/search/" class="md-nav__link">
+      <a href="../../argilla/search/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1792,7 +1807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/webhooks/" class="md-nav__link">
+      <a href="../../argilla/webhooks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1813,7 +1828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla/markdown/" class="md-nav__link">
+      <a href="../../argilla/markdown/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1839,25 +1854,30 @@
                 
   
   
+    
   
   
+  
     
     
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
         
           
-          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1868,7 +1888,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
             FastAPI Server
@@ -1882,7 +1902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla-server/configuration/" class="md-nav__link">
+      <a href="../configuration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1900,10 +1920,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../reference/argilla-server/oauth2_configuration/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    OAuth2 configuration
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1912,6 +1952,119 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-oauth2-configuration-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OAuth2 configuration file
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The OAuth2 configuration file">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#providers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Providers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allowed-workspaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Allowed Workspaces
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allow-http-redirect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Allow HTTP Redirect
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supported-oauth2-providers-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Supported OAuth2 providers configuration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supported OAuth2 providers configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hugging-face-oauth2-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hugging Face OAuth2 configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-oauth2-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      GitHub OAuth2 configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-oauth2-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google OAuth2 configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-more-oauth2-providers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding more OAuth2 providers
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1937,17 +2090,20 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
         
           
-          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -1972,7 +2128,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/argilla-server/telemetry/" class="md-nav__link">
+      <a href="../telemetry/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2005,32 +2161,27 @@
       
   
   
-    
   
   
-  
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../../community/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2041,13 +2192,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Community
@@ -2061,7 +2212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contributor/" class="md-nav__link">
+      <a href="../../../community/contributor/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2082,7 +2233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../developer/" class="md-nav__link">
+      <a href="../../../community/developer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2103,7 +2254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../adding_language/" class="md-nav__link">
+      <a href="../../../community/adding_language/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2121,17 +2272,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../community/popular_issues/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2140,7 +2284,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -2153,7 +2296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../changelog/" class="md-nav__link">
+      <a href="../../../community/changelog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2179,20 +2322,17 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6" >
         
           
-          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -2217,7 +2357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integrations/llamaindex_rag_github/" class="md-nav__link">
+      <a href="../../../community/integrations/llamaindex_rag_github/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2331,6 +2471,109 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-oauth2-configuration-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      The OAuth2 configuration file
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The OAuth2 configuration file">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#providers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Providers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allowed-workspaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Allowed Workspaces
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allow-http-redirect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Allow HTTP Redirect
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supported-oauth2-providers-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Supported OAuth2 providers configuration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supported OAuth2 providers configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hugging-face-oauth2-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hugging Face OAuth2 configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-oauth2-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      GitHub OAuth2 configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-oauth2-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google OAuth2 configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-more-oauth2-providers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding more OAuth2 providers
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2344,169 +2587,133 @@
                 
                   
 
+  
+    <a href="https://github.com/argilla-io/argilla/edit/main/argilla/docs/reference/argilla-server/oauth2_configuration.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
+    </a>
+  
+  
 
-  <h1>Issue dashboard</h1>
 
-<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Most engaging open issues</label><label for="__tabbed_1_2">Latest issues open by the community</label><label for="__tabbed_1_3">Planned issues for upcoming releases</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>Rank</th>
-<th>Issue</th>
-<th style="text-align: center;">Reactions</th>
-<th style="text-align: center;">Comments</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><a href="https://github.com/argilla-io/argilla/issues/5671">5671 - [FEATURE] Support for Private Datasets when importing using the UI</a></td>
-<td style="text-align: center;">👍 6</td>
-<td style="text-align: center;">💬 2</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="https://github.com/argilla-io/argilla/issues/5516">5516 - [FEATURE] Allow all annotators in workspace to see all the submitted records</a></td>
-<td style="text-align: center;">👍 5</td>
-<td style="text-align: center;">💬 1</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="https://github.com/argilla-io/argilla/issues/5113">5113 - [FEATURE] Undo actions in the UI</a></td>
-<td style="text-align: center;">👍 2</td>
-<td style="text-align: center;">💬 3</td>
-</tr>
-<tr>
-<td>4</td>
-<td><a href="https://github.com/argilla-io/argilla/issues/5797">5797 - [FEATURE] Help with Audio Field</a></td>
-<td style="text-align: center;">👍 2</td>
-<td style="text-align: center;">💬 1</td>
-</tr>
-<tr>
-<td>5</td>
-<td><a href="https://github.com/argilla-io/argilla/issues/5415">5415 - [FEATURE] Do not stop logging records if <code>UnprocessableEntityError</code> is raised because one single record</a></td>
-<td style="text-align: center;">👍 1</td>
-<td style="text-align: center;">💬 4</td>
-</tr>
-<tr>
-<td>6</td>
-<td><a href="https://github.com/argilla-io/argilla/issues/5708">5708 - [BUG-UI/UX]Cannot use Argilla with SDK following Quickstart</a></td>
-<td style="text-align: center;">👍 1</td>
-<td style="text-align: center;">💬 3</td>
-</tr>
-<tr>
-<td>7</td>
-<td><a href="https://github.com/argilla-io/argilla/issues/5729">5729 - [BUG-UI/UX] Emojis cause wrong start:end indexes in SpanQuestion</a></td>
-<td style="text-align: center;">👍 1</td>
-<td style="text-align: center;">💬 2</td>
-</tr>
-<tr>
-<td>8</td>
-<td><a href="https://github.com/argilla-io/argilla/issues/5702">5702 - Private datasets not accessible through UI</a></td>
-<td style="text-align: center;">👍 1</td>
-<td style="text-align: center;">💬 1</td>
-</tr>
-<tr>
-<td>9</td>
-<td><a href="https://github.com/argilla-io/argilla/issues/5593">5593 - Dev mode on Huggingface not working</a></td>
-<td style="text-align: center;">👍 1</td>
-<td style="text-align: center;">💬 1</td>
-</tr>
-<tr>
-<td>10</td>
-<td><a href="https://github.com/argilla-io/argilla/issues/5561">5561 - [FEATURE] Force predetermined sorting for a dataset</a></td>
-<td style="text-align: center;">👍 1</td>
-<td style="text-align: center;">💬 1</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>Rank</th>
-<th>Issue</th>
-<th style="text-align: center;">Author</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>🟢 <a href="https://github.com/argilla-io/argilla/issues/5821">5821 - [BUG-python/deployment] Upgrading to Argilla v2 does not populate the metadata of migrated datasets, breaking <code>to_hub()</code> for same metadata key as a field</a></td>
-<td style="text-align: center;">by <strong>mpjuhasz</strong></td>
-</tr>
-<tr>
-<td>2</td>
-<td>🟢 <a href="https://github.com/argilla-io/argilla/issues/5819">5819 - [BUG-python/deployment] Server crashes when deployed with K8s and postgres (connection pooling issue)</a></td>
-<td style="text-align: center;">by <strong>Kop3sh</strong></td>
-</tr>
-<tr>
-<td>3</td>
-<td>🟢 <a href="https://github.com/argilla-io/argilla/issues/5818">5818 - [FEATURE] Render Markdown for question descriptions</a></td>
-<td style="text-align: center;">by <strong>christian-steinmeyer</strong></td>
-</tr>
-<tr>
-<td>4</td>
-<td>🟣 <a href="https://github.com/argilla-io/argilla/issues/5817">5817 - [FEATURE] Support Rendering of Markdown for the annotation guidelines</a></td>
-<td style="text-align: center;">by <strong>christian-steinmeyer</strong></td>
-</tr>
-<tr>
-<td>5</td>
-<td>🟣 <a href="https://github.com/argilla-io/argilla/issues/5815">5815 - [FEATURE] Add Japanese Translation</a></td>
-<td style="text-align: center;">by <strong>Tomoya-Matsubara</strong></td>
-</tr>
-<tr>
-<td>6</td>
-<td>🟢 <a href="https://github.com/argilla-io/argilla/issues/5814">5814 - [BUG-python/deployment] Upgrading server from 1.26.0 → &gt;2.2.0, with no pre-existing postgres</a></td>
-<td style="text-align: center;">by <strong>mpjuhasz</strong></td>
-</tr>
-<tr>
-<td>7</td>
-<td>🟢 <a href="https://github.com/argilla-io/argilla/issues/5809">5809 - Allow SpanQuestion in ChatField</a></td>
-<td style="text-align: center;">by <strong>keithporcaro</strong></td>
-</tr>
-<tr>
-<td>8</td>
-<td>🟣 <a href="https://github.com/argilla-io/argilla/issues/5802">5802 - [BUG-UI/UX] Can't sign-in with Hugging Face on Spacees</a></td>
-<td style="text-align: center;">by <strong>maximilianvb</strong></td>
-</tr>
-<tr>
-<td>9</td>
-<td>🟣 <a href="https://github.com/argilla-io/argilla/issues/5801">5801 - [FEATURE] Move existing dataset to another workspace</a></td>
-<td style="text-align: center;">by <strong>Samoed</strong></td>
-</tr>
-<tr>
-<td>10</td>
-<td>🟢 <a href="https://github.com/argilla-io/argilla/issues/5800">5800 - [FEATURE] Add ability to provide external redis URL in helm chart</a></td>
-<td style="text-align: center;">by <strong>ruslansuprun</strong></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>Rank</th>
-<th>Issue</th>
-<th style="text-align: center;">Milestone</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<p>Last update: 2025-03-10</p>
+<h1 id="oauth2-configuration">OAuth2 configuration<a class="headerlink" href="#oauth2-configuration" title="Permanent link">&para;</a></h1>
+<p>Argilla supports OAuth2 authentication for users. This allows users to authenticate using other services like Google,
+GitHub, or Hugging Face. Next sections will guide you through the configuration of the OAuth2 authentication.</p>
+<h2 id="the-oauth2-configuration-file">The OAuth2 configuration file<a class="headerlink" href="#the-oauth2-configuration-file" title="Permanent link">&para;</a></h2>
+<p>The OAuth2 configuration file is a YAML file that contains the configuration for the OAuth2 providers that you want to
+enable. The default file name is <code>.oauth.yml</code> and it should be placed in the root directory of the Argilla server. You
+can also specify a different file name using the <code>ARGILLA_AUTH_OAUTH_CFG</code> environment variable.</p>
+<p>The file should have the following structure:</p>
+<div class="language-yaml highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">providers</span><span class="p">:</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">huggingface</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">client_id</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_id&gt;&quot;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nt">client_secret</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_secret&gt;&quot;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="nt">scope</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;openid</span><span class="nv"> </span><span class="s">profile&quot;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">google-oauth2</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="nt">client_id</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_id&gt;&quot;</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="nt">client_secret</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_secret&gt;&quot;</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="nt">scope</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;openid</span><span class="nv"> </span><span class="s">email</span><span class="nv"> </span><span class="s">profile&quot;</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">github</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="nt">client_id</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_id&gt;&quot;</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="nt">client_secret</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_secret&gt;&quot;</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="nt">allowed_workspaces</span><span class="p">:</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">argilla</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="nt">allow_http_redirect</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+</span></code></pre></div>
+<h3 id="providers">Providers<a class="headerlink" href="#providers" title="Permanent link">&para;</a></h3>
+<p>The <code>providers</code> key is a list of dictionaries, each dictionary represents a provider configuration, including the
+following fields:</p>
+<ul>
+<li><code>name</code>: The name of the provider. The available options by default are <code>huggingface</code>, <code>github</code> and <code>google-oauth2</code>.
+We will see later how to add more providers not supported by default.</li>
+<li><code>client_id</code>: The client ID provided by the OAuth2 provider. You can get this value by creating an application in the
+provider's developer console. This is a required field, but you can also use the
+<code>ARGILLA_OAUTH2_&lt;PROVIDER_NAME&gt;_CLIENT_ID</code> environment variable to set the value.</li>
+<li><code>client_secret</code>: The client secret provided by the OAuth2 provider. You can get this value by creating an application
+in the provider's developer console. This is a required field, but you can also use
+the <code>ARGILLA_OAUTH2_&lt;PROVIDER_NAME&gt;_CLIENT_SECRET</code> environment variable to set the value.</li>
+<li><code>scope</code>: The scope of the OAuth2 provider. This is an optional field, and normally you don't need to set it, but
+you can use it to request specific permissions from the user access.</li>
+</ul>
+<h3 id="allowed-workspaces">Allowed Workspaces<a class="headerlink" href="#allowed-workspaces" title="Permanent link">&para;</a></h3>
+<p>The <code>allowed_workspaces</code> key defines the available workspaces when users log in using the OAuth2 provider. This is
+a list of <code>name</code> fields that should match the workspace name in the Argilla server. By default, the <code>argilla</code> workspace
+is allowed to authenticate using the OAuth2 provider.</p>
+<p>If the workspace doesn't exist, it will be created automatically on the first server startup.</p>
+<h3 id="allow-http-redirect">Allow HTTP Redirect<a class="headerlink" href="#allow-http-redirect" title="Permanent link">&para;</a></h3>
+<p>The <code>allow_http_redirect</code> key is a boolean value that allows the OAuth2 provider to redirect the user to an HTTP URL.
+By default, this value is set to <code>false</code>, and you should set it to <code>true</code> only if you are running the Argilla server
+behind a proxy that doesn't support HTTPS or if you are running the server locally.</p>
+<p>Enabling this option is not recommended for production environments and should be used only for development purposes.</p>
+<h2 id="supported-oauth2-providers-configuration">Supported OAuth2 providers configuration<a class="headerlink" href="#supported-oauth2-providers-configuration" title="Permanent link">&para;</a></h2>
+<p>The following sections will guide you through the configuration of the supported OAuth2 providers. Before diving into
+the configuration, you should create an application in the provider's developer console to get the client ID and client
+secret.</p>
+<p>A common step when creating an application in the provider's developer console is to set the redirect URI. The
+redirect URI is the URL where the OAuth2 provider will redirect the user after the authentication process.</p>
+<p>The redirect URI should be set to the Argilla server URL, followed by <code>/oauth/&lt;provider_name&gt;/callback</code>. For example,
+if the Argilla server is running on <code>http://localhost:8000</code>, the redirect URI for provider application should
+be <code>http://localhost:8000/oauth/huggingface/callback</code>.</p>
+<h3 id="hugging-face-oauth2-configuration">Hugging Face OAuth2 configuration<a class="headerlink" href="#hugging-face-oauth2-configuration" title="Permanent link">&para;</a></h3>
+<p>Argilla supports Hugging Face OAuth2 authentication out of the box, and is already configured when running Argilla
+on Hugging Face Spaces (See the <a href="../../../getting_started/how-to-configure-argilla-on-huggingface/">Hugging Face Spaces settings</a> for more information).</p>
+<p>But, if you want to manually configure the Hugging Face OAuth2 provider, you should define the following
+fields in the <code>.oauth.yml</code> file:</p>
+<div class="language-yaml highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">providers</span><span class="p">:</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">huggingface</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nt">client_id</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_id&gt;&quot;</span><span class="w"> </span><span class="c1"># You can use the ARGILLA_OAUTH2_HUGGINGFACE_CLIENT_ID environment variable</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="nt">client_secret</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_secret&gt;&quot;</span><span class="w"> </span><span class="c1"># You can use the ARGILLA_OAUTH2_HUGGINGFACE_CLIENT_SECRET environment variable</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="nt">scope</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;openid</span><span class="nv"> </span><span class="s">profile&quot;</span><span class="w"> </span><span class="c1"># This field is optional. But this value must be aligned your OAuth2 application created in Hugging Face.</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="nn">...</span>
+</span></code></pre></div>
+<p>To get your client ID and client secret, you need to create an <a href="https://huggingface.co/settings/applications/new">OAuth2 application</a> in the Hugging Face
+settings page.</p>
+<p>The minimal scope required for the Hugging Face OAuth2 provider is <code>openid profile</code>, so you don't need to
+change the <code>scope</code> when creating the application.</p>
+<h3 id="github-oauth2-configuration">GitHub OAuth2 configuration<a class="headerlink" href="#github-oauth2-configuration" title="Permanent link">&para;</a></h3>
+<p>Argilla also supports GitHub OAuth2 authentication out of the box. To configure the GitHub OAuth2 provider, you should
+define the following fields in the <code>.oauth.yml</code> file:</p>
+<div class="language-yaml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">providers</span><span class="p">:</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">github</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">client_id</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_id&gt;&quot;</span><span class="w"> </span><span class="c1"># You can use the ARGILLA_OAUTH2_GITHUB_CLIENT_ID environment variable</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">client_secret</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_secret&gt;&quot;</span><span class="w"> </span><span class="c1"># You can use the ARGILLA_OAUTH2_GITHUB_CLIENT_SECRET environment variable</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="nn">...</span>
+</span></code></pre></div>
+<p>To get your client ID and client secret, you need to register a new <a href="https://github.com/settings/applications/new">OAuth application</a> in the GitHub settings page.</p>
+<h3 id="google-oauth2-configuration">Google OAuth2 configuration<a class="headerlink" href="#google-oauth2-configuration" title="Permanent link">&para;</a></h3>
+<p>Argilla also supports Google OAuth2 authentication out of the box. To configure the Google OAuth2 provider, you
+should define the following fields in the <code>.oauth.yml</code> file:</p>
+<div class="language-yaml highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nt">providers</span><span class="p">:</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">google-oauth2</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="nt">client_id</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_id&gt;&quot;</span><span class="w"> </span><span class="c1"># You can use the ARGILLA_OAUTH2_GOOGLE_OAUTH2_CLIENT_ID environment variable</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="nt">client_secret</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_secret&gt;&quot;</span><span class="w"> </span><span class="c1"># You can use the ARGILLA_OAUTH2_GOOGLE_OAUTH2_CLIENT_SECRET environment variable</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="nn">...</span>
+</span></code></pre></div>
+<p>To get your client ID and client secret, you need to create a new <a href="https://console.cloud.google.com/apis/credentials/oauthclient">OAuth2 client</a> in the Google Cloud Console.</p>
+<h3 id="adding-more-oauth2-providers">Adding more OAuth2 providers<a class="headerlink" href="#adding-more-oauth2-providers" title="Permanent link">&para;</a></h3>
+<p>If you want to add more OAuth2 providers that are not supported by default, you can do so by adding a new provider
+configuration to the <code>.oauth.yml</code> file. The Argilla server uses the <a href="https://python-social-auth.readthedocs.io/en/latest/backends/index.html">Social Auth backends</a> component to define
+the provider configuration. You only need to register the provider backend using the <code>extra_backends</code> key in
+the <code>.oauth.yml</code> file.</p>
+<p>For example, to configure the <a href="https://python-social-auth.readthedocs.io/en/latest/backends/apple.html">Apple OAuth2 provider</a>, you should add the following configuration to
+the <code>.oauth.yml</code> file:</p>
+<div class="language-yaml highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nt">providers</span><span class="p">:</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">apple-id</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="nt">client_id</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_id&gt;&quot;</span><span class="w"> </span><span class="c1"># You can use the ARGILLA_OAUTH2_APPLE_ID_CLIENT_ID environment variable</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="nt">client_secret</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&lt;client_secret&gt;&quot;</span><span class="w"> </span><span class="c1"># You can use the ARGILLA_OAUTH2_APPLE_ID_CLIENT_SECRET environment variable</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="nt">extra_backends</span><span class="p">:</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">social_core.backends.apple.AppleIdAuth</span><span class="w"> </span><span class="c1"># Register the Apple OAuth2 provider backend</span>
+</span></code></pre></div>
+<p>All the <code>SOCIAL_AUTH_*</code> environment variables are supported by the Argilla server, so you can customize the provider
+configuration using these environment variables.</p>
 
 
 
@@ -2555,7 +2762,7 @@
               
                 
               
-              Thanks for your feedback! Help us improve this page by <a href="https://github.com/argilla-io/argilla/issues/new/?title=[Feedback]+Issue%20dashboard+-+/community/popular_issues/" target="_blank" rel="noopener">opening a GitHub issue</a>.
+              Thanks for your feedback! Help us improve this page by <a href="https://github.com/argilla-io/argilla/issues/new/?title=[Feedback]+OAuth2%20configuration+-+/reference/argilla-server/oauth2_configuration/" target="_blank" rel="noopener">opening a GitHub issue</a>.
             </div>
           
         </div>
@@ -2587,7 +2794,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../adding_language/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Add a new language to Argilla">
+          <a href="../configuration/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Server configuration">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2597,20 +2804,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Add a new language to Argilla
+                Server configuration
               </div>
             </div>
           </a>
         
         
           
-          <a href="../changelog/" class="md-footer__link md-footer__link--next" aria-label="Next: Changelog">
+          <a href="../telemetry/" class="md-footer__link md-footer__link--next" aria-label="Next: Server Telemetry">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Changelog
+                Server Telemetry
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -2696,12 +2903,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.tabs", "navigation.footer", "navigation.top", "navigation.tracking", "navigation.path", "toc.follow", "content.code.copy", "content.code.annotate", "content.action.edit", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.sections", "navigation.tabs", "navigation.footer", "navigation.top", "navigation.tracking", "navigation.path", "toc.follow", "content.code.copy", "content.code.annotate", "content.action.edit", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.af256bd8.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.af256bd8.min.js"></script>
       
-        <script src="../../js/open_in_new_tab.js"></script>
+        <script src="../../../js/open_in_new_tab.js"></script>
       
     
   </body>
