@@ -263,8 +263,7 @@ class HFDatasetsIO:
         if id_column_name not in hf_dataset.column_names:
             split = hf_dataset.split
             warnings.warn(
-                message="Record id column not found in Hugging Face dataset. "
-                "Using row index and split for record ids.",
+                message="Record id column not found in Hugging Face dataset. Using row index and split for record ids.",
             )
 
             hf_dataset = hf_dataset.map(
